@@ -81,6 +81,4 @@ int main(void)
 		USART6_DR = data;
 
 	}
-
-
 }
