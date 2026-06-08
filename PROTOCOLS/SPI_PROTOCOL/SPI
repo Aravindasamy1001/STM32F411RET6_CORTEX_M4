@@ -1,1 +1,36 @@
+#include<stdio.h>
+#define n 15
+void in(int as[]){
+	int a,b;
+	printf("enter a value to insert in array\n");
+	scanf("%d",&a);
+	for(int i=0;i<n;i+=){
+		if(as[i]=='0'){
+			as[i]==a;
+		}
+		else if(i=='15'){
+			as[i]==a;
+		}
+	}
+	printf("\n");
+}
+
+
+
+int main(){
+
+     int as[15]={1,2,34,5};
+     int a,b;
+     printf("insert ->1,delete->2\n");
+     scanf("%d",&a);
+
+	     if(a=='1'){
+		     in(as);
+	     }
+	     else if(a=='2'){
+		     de(as);
+	     }
+
+	     return 0;
+}
 
