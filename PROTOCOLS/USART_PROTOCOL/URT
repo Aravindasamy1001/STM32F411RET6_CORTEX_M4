@@ -1,1 +1,15 @@
+USART_01_8051.c
 
+Implemented serial communication using the USART peripheral in an 8051 microcontroller. Configured baud rate settings and transmitted data between the microcontroller and external devices.
+
+USART_01_TRANSMIT.c
+
+Developed a basic USART data transmission program. Sent characters and messages from the microcontroller to a serial terminal for communication testing.
+
+USART_02_TRANSMIT.c
+
+Enhanced USART transmission functionality with support for sending strings and multiple data packets. Verified reliable serial communication at configured baud rates.
+
+USART_06_RX_TX.c
+
+Implemented half-duplex USART communication with both data transmission and reception. Received incoming serial data and echoed or processed it for real-time communication applications.
