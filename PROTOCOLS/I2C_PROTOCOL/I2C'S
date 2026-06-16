@@ -1,1 +1,15 @@
+I2C_01_TRANSMIT.c
 
+Implemented basic I2C communication for transmitting data between a microcontroller and an external device. Configured the I2C peripheral and generated start, data, and stop conditions successfully.
+
+I2C_01_WRITE.c
+
+Developed an I2C write operation to send data to a specific slave device address. Verified successful data transfer using acknowledgment signals from the slave.
+
+I2C_TO_LCD.c
+
+Interfaced an LCD module using the I2C protocol to reduce GPIO pin usage. Displayed characters and messages on the LCD through an I2C-based controller.
+
+I2C_TO_PCF8574.c
+
+Implemented communication with the PCF8574 I/O expander using I2C. Controlled external digital outputs and monitored input signals through the expander device.
