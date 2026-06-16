@@ -1,36 +1,15 @@
-#include<stdio.h>
-#define n 15
-void in(int as[]){
-	int a,b;
-	printf("enter a value to insert in array\n");
-	scanf("%d",&a);
-	for(int i=0;i<n;i+=){
-		if(as[i]=='0'){
-			as[i]==a;
-		}
-		else if(i=='15'){
-			as[i]==a;
-		}
-	}
-	printf("\n");
-}
+SPI_01_SEND.c
 
+Implemented SPI communication in master mode to transmit data to a slave device. Configured SPI clock settings, data frame format, and chip select control for reliable data transfer.
 
+SPI_01_SLAVE.c
 
-int main(){
+Developed SPI slave functionality to receive and process data from an SPI master device. Handled incoming data synchronization using SPI status flags and interrupts.
 
-     int as[15]={1,2,34,5};
-     int a,b;
-     printf("insert ->1,delete->2\n");
-     scanf("%d",&a);
+SPI_02_WRITE_ST7789.c
 
-	     if(a=='1'){
-		     in(as);
-	     }
-	     else if(a=='2'){
-		     de(as);
-	     }
+Interfaced the ST7789 TFT display using SPI communication. Sent display commands and pixel data to initialize and control the graphical display module.
 
-	     return 0;
-}
+SPI_03_TO_TFT_LCD.c
 
+Developed an SPI-based TFT LCD driver for displaying text, graphics, and images. Implemented high-speed data transfer to achieve efficient screen updates and display control.
