@@ -1,1 +1,9 @@
+bare-metal cooperative scheduler / pseudo-RTOS scheduler using SysTick.
 
+ code has:
+
+ Task Control Blocks (task_cb_t)
+ Multiple tasks (task_LED1, task_LED2)
+ SysTick timer interrupt
+ Round Robin scheduling
+ Periodic task execution
