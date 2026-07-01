@@ -69,7 +69,6 @@ static inline void LED2_Off(void)
 {
     GPIOB_BSRR = PB1_RESET;
 }
-
 static void task_LED1(task_cb_t *t)
 {
     uint32_t elapsed = g_tick - t->last_tick;
